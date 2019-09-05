@@ -11,7 +11,7 @@ module.exports = project => (
 	//==========================================================================
 	//=============== CHANGE THE NAME OF THE DATABASE ==========================
 	//==========================================================================
-	mongoose.connect('mongodb://127.0.0.1/database_name_here',, { useNewUrlParser: true },()=>{
+	mongoose.connect('mongodb://127.0.0.1/database_name_here', { useNewUrlParser: true },()=>{
 	    console.log('connected to mongodb')
 	})
 	//==========================================================================
