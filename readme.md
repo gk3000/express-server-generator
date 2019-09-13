@@ -1,4 +1,4 @@
-A generator is a tool which will create the skeleton of your server app with just a few commands.
+A generator is a tool which will create the skeleton of your app with just a few commands.
 
 To build this we've used:
 
