@@ -8,14 +8,10 @@ To build this we've used:
 
 How to use it :
 
-1) cd express_generator
-2) node app.js
-3) then you'll be asked for project name, author and description
-   (these data will be included in the package.json)
-4) cd ${new project name}
-5) npm install 
-6) nodemon
+`npm i -g express-server-generator` to install it globally
 
-All the templates used for the new projects to be generated are defined in this repo and could be changed by you in the app.js file and files/folders inside 'files' folder.
+From the folder where you want to create a new express server run `esg` and provide a name for the project, brief description and author name. 
+
+Then enter the folder with your new project where you will see the file/folders structure and some starter code. 
 
 (c) Barcelona Code School, MIT License
