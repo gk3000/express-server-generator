@@ -1,6 +1,6 @@
 {
   "name": "express-server-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates an Express server files and folders for routes, controllers",
   "main": "./bin/app.js",
   "bin": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/barcelonacodeschool/express_generator.git"
+    "url": "git+ssh://git@github.com:gk3000/express-server-generator.git"
   },
   "author": "GK3000",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/barcelonacodeschool/express_generator/issues"
+    "url": "https://github.com/gk3000/express-server-generator/issues"
   },
-  "homepage": "https://gitlab.com/barcelonacodeschool/express_generator#readme",
+  "homepage": "https://github.com/gk3000/express-server-generator",
   "keywords": [
     "express",
     "server",
