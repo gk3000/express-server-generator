@@ -17,3 +17,5 @@ How to use it :
 6) nodemon
 
 All the templates used for the new projects to be generated are defined in this repo and could be changed by you in the app.js file and files/folders inside 'files' folder.
+
+(c) Barcelona Code School, MIT License
