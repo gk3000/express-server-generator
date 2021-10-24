@@ -1,4 +1,4 @@
-A generator is a tool which will create the skeleton of your app with just a few commands.
+A generator for Express basic server which creates folders and files for the routes, controllers and models.
 
 To build this we've used:
 

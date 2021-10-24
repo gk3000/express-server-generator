@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require("fs");
 const readline = require("readline");
 const rl = readline.createInterface({
@@ -15,7 +17,7 @@ const user_model = require("./files/models/models.js");
 //==========================================================================================
 const init = () => {
   rl.question(
-    "Do you want to create a new express project, if yes wich name do you want to use? ",
+    "Do you want to create a new express project, if yes which name do you want to use? ",
     (project) => {
       if (project === "not") return rl.close();
       if (fs.existsSync(`./${project}`)) {
@@ -23,7 +25,7 @@ const init = () => {
         return rl.close();
       }
       rl.question(
-        "Give a little description of your project? ",
+        "Give a brief description of your project? ",
         (description) => {
           rl.question("Who is the author of the project? ", (author) => {
             fs.mkdirSync(`./${project}`);
@@ -100,3 +102,4 @@ const ignore = (project) => {
     rl.close();
   });
 };
+
