@@ -10,6 +10,10 @@ How to use it :
 
 `npm i -g express-server-generator` to install it globally
 
+Or use `npx` if you have it installed:
+
+`npx express-server-generator`
+
 From the folder where you want to create a new express server run `esg` and provide a name for the project, brief description and author name. 
 
 Then enter the folder with your new project where you will see the file/folders structure and some starter code. 
