@@ -17,9 +17,9 @@ const user_model = require("./files/models/models.js");
 //==========================================================================================
 const init = () => {
   rl.question(
-    "Do you want to create a new express project, if yes which name do you want to use? ",
+    "PLease enter the name of your project or 'no' to stop ",
     (project) => {
-      if (project === "not") return rl.close();
+      if (project === "no") return rl.close();
       if (fs.existsSync(`./${project}`)) {
         console.log(`Project ${project} already exist`);
         return rl.close();

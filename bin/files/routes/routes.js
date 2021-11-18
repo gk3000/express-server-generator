@@ -1,6 +1,6 @@
 module.exports = project => (
     `const router = require('express').Router()
-     const controller = require('../controllers/controllers.test')
+     const controller = require('../controllers/controllers')
 
      router.get('/getTest',controller.getTest)
      router.post('/postTest',controller.postTest)

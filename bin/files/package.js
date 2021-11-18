@@ -15,5 +15,6 @@ module.exports = (project, description, author) => ({
     jsonwebtoken: "*",
     mongoose: "*",
     nodemailer: "*",
+    "dotenv":"*"
   },
 });

@@ -20,6 +20,6 @@ module.exports = (project) =>
 	//==========================================================================
 	app.use(require('cors')())
 	//==========================================================================
-	app.use('/test',require('./routes/routes.test.js'))
+	app.use('/test',require('./routes/routes.js'))
 	//==========================================================================
 	app.listen(port, () => console.log("🚀 Listening on port: " + port + " 🚀"));`;
