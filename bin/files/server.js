@@ -1,6 +1,6 @@
 module.exports = (project) =>
   `const app      = require('express')()
-	const port     = process.env.PORT || 8080 
+	const port     = process.env.PORT || 4444 
 
 	app.use(require("express").urlencoded({extended: true}))
 	app.use(require("express").json())
