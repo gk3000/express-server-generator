@@ -18,10 +18,10 @@ From the folder where you want to create a new express server run `esg` and prov
 
 Then enter the folder with your new project where you will see the file/folders structure and some starter code. 
 
-<img src='./imgs/01.png'>
-<img src='./imgs/02.png'>
-<img src='./imgs/03.png'>
-<img src='./imgs/04.png'>
-<img src='./imgs/05.png'>
+<img src='./imgs/01.jpg'>
+<img src='./imgs/02.jpg'>
+<img src='./imgs/03.jpg'>
+<img src='./imgs/04.jpg'>
+<img src='./imgs/05.jpg'>
 
 (c) Barcelona Code School, MIT License

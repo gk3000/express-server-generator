@@ -1,6 +1,6 @@
   {
   "name": "express-server-generator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Generates an Express server files and folders for routes, controllers",
   "main": "./bin/app.js",
   "bin": {
