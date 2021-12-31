@@ -17,7 +17,7 @@ const user_model = require("./files/models/models.js");
 //==========================================================================================
 const init = () => {
   rl.question(
-    "PLease enter the name of your project or 'no' to stop ",
+    "Please enter the name of your project or 'no' to stop ",
     (project) => {
       if (project === "no") return rl.close();
       if (fs.existsSync(`./${project}`)) {
