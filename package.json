@@ -1,6 +1,6 @@
   {
   "name": "express-server-generator",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Generates an Express server files and folders for routes, controllers",
   "main": "./bin/app.js",
   "bin": {
@@ -18,10 +18,12 @@
   "bugs": {
     "url": "https://github.com/gk3000/express-server-generator/issues"
   },
-  "homepage": "https://github.com/gk3000/express-server-generator",
+  "homepage": "https://barcelonacodeschool.com",
   "keywords": [
     "express",
     "server",
-    "generator"
+    "generator",
+    "barcelona code school",
+    "express generator"
   ]
 }

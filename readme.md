@@ -24,4 +24,6 @@ Then enter the folder with your new project where you will see the file/folders 
 <img src='./imgs/04.jpg'>
 <img src='./imgs/05.jpg'>
 
-(c) Barcelona Code School, MIT License
+---
+
+(c) <a href='https://barcelonacodeschool.com'>Barcelona Code School</a>, MIT License
