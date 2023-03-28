@@ -1,5 +1,6 @@
 module.exports = (project) =>
 `const app      = require('express')()
+require("dotenv").config()
 const port     = process.env.PORT || 4444 
 
 app.use(require("express").urlencoded({extended: true}))
