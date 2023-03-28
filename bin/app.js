@@ -17,7 +17,7 @@ const user_model = require("./files/models/models.js");
 
 const init = () => {
   rl.question(
-    "Please enter the name of your project or 'no' to stop ",
+    "Please enter the name of your project\nor type 'no' to stop:",
     (project) => {
       if (project === "no") return rl.close();
       if (fs.existsSync(`./${project}`)) {
@@ -25,9 +25,9 @@ const init = () => {
         return rl.close();
       }
       rl.question(
-        "Give a brief description of your project? ",
+        "A description of your project (optional): ",
         (description) => {
-          rl.question("Who is the author of the project? ", (author) => {
+          rl.question("Author's name (optional): ", (author) => {
             fs.mkdirSync(`./${project}`);
             json(project, description, author);
           });
@@ -110,7 +110,7 @@ const ignore = (project) => {
     if (err) throw err;
     rl.close();
     console.log("\x1b[1m","\x1b[32m",
-      `\n\n\n🥚 🐣 🐥 🐓 🍗\n\nYou server has been created.\n\nTo start using it do the following:${"\x1b[37m"}\n\n     cd ${project}\n     npm i\n     node index.js ${"\x1b[31m"}OR ${"\x1b[37m"}nodemon\n\n${"\x1b[32m"}Please check .env file to modify the URL of the mongoDB and a PORT variable\n\n${"\x1b[35m"}Happy coding from Barcelona Code School!\n`)
+      `\n\n\n🥚 🐣 🐥 🐓 🍗\n\nYou server has been created.\n\nTo start using it do the following:${"\x1b[37m"}\n\n     cd ${project}\n     npm i\n     node index.js ${"\x1b[31m"}OR ${"\x1b[37m"}nodemon\n\n${"\x1b[32m"}Please check .env file to modify\nthe URL of the mongoDB and the PORT variable\n\n${"\x1b[35m"}Happy coding from Barcelona Code School!\n`)
   });
 };
 
